@@ -3,4 +3,4 @@
 #peso/altura^2
 altura = float(input("digite sua altura: "))
 peso = float(input("digite seu peso: "))
-print(f"seu imc é: {peso/altura*altura}")
+print(f"seu imc é: {peso/(altura*altura)}")
