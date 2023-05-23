@@ -7,8 +7,8 @@ euro = 5.31
 
 
 real = float(input("qual o valor em real? "))
-print(f"o valor em dolar é: {real / dolar}:.2f")
-print(f"o valor em euro é: {real / euro}:.2f")
+print(f"o valor em dolar é: {real / dolar:.2f}")
+print(f"o valor em euro é: {real / euro:.2f}")
 
 
 
