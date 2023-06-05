@@ -1,14 +1,4 @@
-# Receba (input) o valor de um salário e mostre
-# o quanto deve ser depositado de FGTS (8% do valor salário)
-# para este salário informado
-# # fgts = (salário * 8)  / 100
-# # fgts = salário * 0.08
-# faz como que só mostra até uma casas decimais.
+# Crie um programa que imprime de 0 ate 12 e fazendo pulos de três(3).(use o comando For)
 
-salario = float(input("qual o salario: "))
-fgts = (salario*8)/100
-
-print(f"fgts: {fgts:.2f}")
-print(f"salario: {salario - fgts:.2f}")
-
-
+for i in range (0, 12+1, 3):
+    print(i)

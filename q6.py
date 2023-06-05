@@ -1,15 +1,17 @@
-# Faça um programa que retorna a hora que for
-# digitada e cumprimente de acordo com o horário.
+# Escreva um programa que repita a leitura de uma senha até
+# que ela seja válida. Para cada leitura de senha incorreta
+# informada, escrever a mensagem "Senha Invalida". Quando a
+# senha for informada corretamente deve ser impressa a mensagem
+# "Acesso Permitido" e o algoritmo encerrado. Considere que a
+# senha correta é o valor 2002.
 
-hora = float(input("que hora sao? "))
-
-if 0 <= hora < 6:
-    print("é madrugada")
-elif 6 <= hora < 12:
-    print("é dia")
-elif 12 <= hora < 18:
-    print("é tarde")
-elif 18 <= hora < 24:
-    print("é noite")
-
+senha = 2002
+while True:
+    x = int(input('digite a senha: '))
+    if x == senha:
+        print('acesso permitido')
+        break
+    else:
+        print('acesso negado')
+        continue
 
